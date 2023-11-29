@@ -2,8 +2,10 @@
 
 user_number = int(input("Please enter your number: "))
 amount_of_multiples = int(input("Please enter number of multiples "))
+multiples = []
 
 for i in range(amount_of_multiples):
-    number = user_number
     number = user_number * (i+1)
-    print(number)
+    multiples.append(number)
+    
+print(multiples)
